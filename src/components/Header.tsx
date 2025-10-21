@@ -37,11 +37,11 @@ export default function Header() {
           <Image src="/assets/logo_3.svg" alt="NALA" width={92} height={24} />
         </Link>
         <nav className="flex flex-wrap items-center gap-4 sm:gap-6 md:gap-8 text-xs sm:text-sm text-white/90">
-          <Link href="/about" className="hover:text-white">আমাদের সম্পর্কে</Link>
-          <Link href="/business" className="hover:text-white">ব্যবসার জন্য</Link>
+          <Link href="/about" className="hover:text-white">About</Link>
+          <Link href="/business" className="hover:text-white">For Business</Link>
         </nav>
         <div className="flex items-center gap-3 shrink-0">
-          <Link href="/nala_business.apk" className="rounded-lg bg-sky-600 text-white px-4 py-2 text-sm font-medium hover:bg-sky-500 transition">ডাউনলোড</Link>
+          <Link href="/nala_business.apk" className="rounded-lg bg-sky-600 text-white px-4 py-2 text-sm font-medium hover:bg-sky-500 transition">Download</Link>
         </div>
       </div>
     </header>

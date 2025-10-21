@@ -9,27 +9,27 @@ export default function Home() {
       {/* হিরো সেকশন - গভীর নীল গ্রেডিয়েন্ট */}
       <section id="hero" className="relative overflow-hidden bg-[linear-gradient(180deg,#071736_0%,#0b2a69_40%,#0a1030_100%)] text-white min-h-screen pt-16 flex items-center">
         <div className="absolute inset-0 pointer-events-none">
-          <Image src="/assets/hero.jpg" alt="হিরো ব্যাকগ্রাউন্ড" fill className="object-cover opacity-70" />
+          <Image src="/assets/hero.jpg" alt="Hero background" fill className="object-cover opacity-70" />
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(14,20,40,0.0)_0%,rgba(10,16,48,0.6)_70%)]" />
           <div className="absolute inset-0" style={{backgroundImage:"radial-gradient(1px 1px at 25px 25px, rgba(255,255,255,0.25) 1px, transparent 1px)",backgroundSize:"50px 50px",opacity:0.15}} />
         </div>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-10 items-center relative">
           <div>
             <div className="inline-flex items-center gap-2 rounded-full border border-white/20 px-3 py-1 text-xs text-white/90">
-              <span>দ্রুত ও নিরাপদ</span>
+              <span>Fast & Secure</span>
             </div>
             <h1 className="mt-4 text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight">
-              পরিবারের কাছে ভালোবাসা পাঠান <span className="text-sky-300">🩵</span>
+              Send love home <span className="text-sky-300">🩵</span>
             </h1>
             <p className="mt-4 text-lg text-white/80 max-w-xl">
-              সারা বিশ্বে ৫ লক্ষ+ গ্রাহক এর সাথে যুক্ত হোন।
+              Join 500k+ customers worldwide.
             </p>
            
             <div className="mt-6 flex items-center gap-2 text-white/80">
               <div className="flex items-center gap-1 text-yellow-400">
                 <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
               </div>
-              <span className="text-sm">৪.৮ স্টোর রেটিং</span>
+              <span className="text-sm">4.8 store rating</span>
             </div>
           </div>
           <div className="relative">
@@ -49,10 +49,10 @@ export default function Home() {
         {/* কেন্দ্রের টেক্সট */}
         <div className="relative z-10 mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight text-neutral-900">
-            বিশ্বজুড়ে <span className="text-sky-600">৫,০০,০০০+</span> গ্রাহকের আস্থা
+            Trusted by <span className="text-sky-600">500,000+</span> customers worldwide
           </h2>
-          <p className="mt-4 text-lg text-neutral-700">US, UK, EU, আফ্রিকা ও এশিয়ায় তাৎক্ষণিক, সাশ্রয়ী ও নিরাপদ রেমিট্যান্স ট্রান্সফার।</p>
-          <a href="/nala_business.apk" className="mt-6 inline-flex rounded-full bg-sky-600 text-white px-6 py-3 text-sm font-medium">NALA ডাউনলোড করুন</a>
+          <p className="mt-4 text-lg text-neutral-700">Instant, affordable and secure transfers across the US, UK, EU, Africa and Asia.</p>
+          <a href="/nala_business.apk" className="mt-6 inline-flex rounded-full bg-sky-600 text-white px-6 py-3 text-sm font-medium">Download NALA</a>
         </div>
       </section>
 
@@ -62,9 +62,9 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-10 items-start">
             {/* Left: Text block with decorative floating cards */}
             <div>
-              <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-neutral-900">প্রবাস থেকে পরিবারের কাছে টাকা পাঠান</h2>
-              <p className="mt-4 text-neutral-700 max-w-prose">বিদেশে থেকে দেশ এ রেমিট্যান্স পাঠানো এখন আরও সহজ ও নিরাপদ। </p>
-              <p className="mt-3 text-neutral-700 max-w-prose">NALA অ্যাপ এর মাধ্যমে পরিবারের কাছে দ্রুত টাকা পাঠান।</p>
+              <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-neutral-900">Send money to your family</h2>
+              <p className="mt-4 text-neutral-700 max-w-prose">Sending remittances home is now easier and safer.</p>
+              <p className="mt-3 text-neutral-700 max-w-prose">Use the NALA app to send money quickly to loved ones.</p>
               <div className="mt-8 relative h-80 sm:h-96">
                 {/* halo */}
                 <div className="absolute inset-0 flex items-center justify-center">
@@ -73,21 +73,21 @@ export default function Home() {
                 {/* top pill */}
                 <div className="absolute left-1/2 -translate-x-1/2 top-10 rounded-2xl bg-white shadow-xl ring-1 ring-black/5 px-4 py-3 flex items-center gap-2">
                   <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-sky-100 text-sky-700">💙</span>
-                  <span className="text-sm text-neutral-800">মাকে পাঠানো হয়েছে ✅</span>
+                  <span className="text-sm text-neutral-800">Sent to Mom ✅</span>
                 </div>
                 {/* middle card */}
                 <div className="absolute left-1/2 -translate-x-1/2 top-28 sm:top-32 w-[320px] sm:w-[360px] rounded-2xl bg-white shadow-2xl ring-1 ring-black/5 px-5 py-4 flex items-center gap-3">
                   <Image src="/assets/1.avif" alt="Friend avatar" width={40} height={40} className="h-10 w-10 rounded-full object-cover" />
                   <div className="flex-1">
-                    <div className="font-medium text-neutral-900">NALA বন্ধুদের কাছে পাঠান</div>
-                    <div className="mt-1 text-xs text-neutral-600">কন্ট্যাক্ট নির্বাচন করুন</div>
+                    <div className="font-medium text-neutral-900">Send to NALA friends</div>
+                    <div className="mt-1 text-xs text-neutral-600">Select contact</div>
                   </div>
                   <span className="text-xl">👋</span>
                 </div>
                 {/* bottom pill */}
                 <div className="absolute left-1/2 -translate-x-1/2 bottom-6 w-[280px] rounded-2xl bg-white shadow-xl ring-1 ring-black/5 px-4 py-3 flex items-center gap-2">
                   <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-sky-100 text-sky-700">💙</span>
-                  <span className="text-sm text-neutral-800">বেস্টির কাছ থেকে $100 পেয়েছেন!</span>
+                  <span className="text-sm text-neutral-800">Received $100 from bestie!</span>
                 </div>
               </div>
             </div>
@@ -102,24 +102,24 @@ export default function Home() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="text-2xl font-semibold tracking-tight text-neutral-900">উচ্চ এক্সচেঞ্জ রেট , বৈধ মাধ্যম!</h3>
-                    <p className="mt-2 text-neutral-700">আপনার কষ্টার্জিত অর্থ দেশ এ আপনার পরিবারের কাছে পাঠান যখন ইচ্ছা, যত ইচ্ছা। উপভোগ করুণ সর্বাধিক বৈধ এক্সচেঞ্জ রেট</p>
-                    <p className="mt-2 text-neutral-800"><span className="font-semibold">প্রতিদিন ১০ লক্ষ টাকা পর্যন্ত পাঠাতে পারবেন</span>—যেকোনো সময়, নিজ ফোন থেকে ।</p>
+                    <h3 className="text-2xl font-semibold tracking-tight text-neutral-900">Great rates, fully compliant</h3>
+                    <p className="mt-2 text-neutral-700">Send your hard-earned money home whenever you want. Enjoy competitive, compliant rates.</p>
+                    <p className="mt-2 text-neutral-800"><span className="font-semibold">Send up to 1,000,000 BDT per day</span> — anytime, from your phone.</p>
                   </div>
                 </div>
               </div>
               {/* Desktop-only: Stay in Control card stacked under the right card */}
               <div className="hidden md:block mt-6 rounded-3xl bg-white shadow-2xl ring-1 ring-black/5 p-6 sm:p-8">
-                <h3 className="text-2xl font-semibold tracking-tight text-neutral-900">লেনদেন এর পূর্ণ নিয়ন্ত্রণ আপনার</h3>
-                <p className="mt-2 text-neutral-700">রিয়েল-টাইম আপডেট ও ইনস্ট্যান্ট নোটিফিকেশনের মাধ্যমে সব লেনদেন এর খোঁজ রাখুন।</p>
+                <h3 className="text-2xl font-semibold tracking-tight text-neutral-900">Stay in full control</h3>
+                <p className="mt-2 text-neutral-700">Track every transfer with real-time updates and instant notifications.</p>
               </div>
             </div>
           </div>
 
           {/* Mobile-only full-width: Stay in Control card */}
           <div className="md:hidden mt-10 sm:mt-12 rounded-3xl bg-white shadow-2xl ring-1 ring-black/5 p-6 sm:p-8">
-            <h3 className="text-2xl font-semibold tracking-tight text-neutral-900">ট্রান্সফারের পূর্ণ নিয়ন্ত্রণ আপনার</h3>
-            <p className="mt-2 text-neutral-700 max-w-3xl">রিয়েল-টাইম আপডেট ও ইনস্ট্যান্ট নোটিফিকেশনে সব ট্রান্সফারের খোঁজ রাখুন—অ্যাপ ও ইমেইলে।</p>
+            <h3 className="text-2xl font-semibold tracking-tight text-neutral-900">Stay in full control</h3>
+            <p className="mt-2 text-neutral-700 max-w-3xl">Track every transfer with real-time updates and instant notifications.</p>
           </div>
         </div>
       </section>

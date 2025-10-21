@@ -10,25 +10,26 @@ type Currency = {
 
 const SENDER_CURRENCIES: Currency[] = [
   // Middle East
-  { code: "AED", label: "সংযুক্ত আরব আমিরাত দিরহাম", flag: "🇦🇪" },
-  { code: "SAR", label: "সৌদি রিয়াল", flag: "🇸🇦" },
-  { code: "QAR", label: "কাতারি রিয়াল", flag: "🇶🇦" },
-  { code: "KWD", label: "কুয়েতি দিনার", flag: "🇰🇼" },
-  { code: "BHD", label: "বাহরাইনি দিনার", flag: "🇧🇭" },
-  { code: "OMR", label: "ওমানি রিয়াল", flag: "🇴🇲" },
+  { code: "AED", label: "UAE Dirham", flag: "🇦🇪" },
+  { code: "SAR", label: "Saudi Riyal", flag: "🇸🇦" },
+  { code: "QAR", label: "Qatari Riyal", flag: "🇶🇦" },
+  { code: "KWD", label: "Kuwaiti Dinar", flag: "🇰🇼" },
+  { code: "BHD", label: "Bahraini Dinar", flag: "🇧🇭" },
+  { code: "OMR", label: "Omani Rial", flag: "🇴🇲" },
   // Asia
-  { code: "MYR", label: "মালয়েশিয়ান রিঙ্গিত", flag: "🇲🇾" },
-  { code: "SGD", label: "সিঙ্গাপুর ডলার", flag: "🇸🇬" },
-  { code: "MVR", label: "মালদ্বীপীয় রুফিয়া", flag: "🇲🇻" },
+  { code: "MYR", label: "Malaysian Ringgit", flag: "🇲🇾" },
+  { code: "SGD", label: "Singapore Dollar", flag: "🇸🇬" },
+  { code: "MVR", label: "Maldivian Rufiyaa", flag: "🇲🇻" },
   // Western
-  { code: "USD", label: "মার্কিন ডলার", flag: "🇺🇸" },
-  { code: "GBP", label: "ব্রিটিশ পাউন্ড", flag: "🇬🇧" },
-  { code: "CAD", label: "কানাডিয়ান ডলার", flag: "🇨🇦" },
-  { code: "EUR", label: "ইউরো", flag: "🇪🇺" },
+  { code: "USD", label: "US Dollar", flag: "🇺🇸" },
+  { code: "GBP", label: "British Pound", flag: "🇬🇧" },
+  { code: "CAD", label: "Canadian Dollar", flag: "🇨🇦" },
+  { code: "EUR", label: "Euro", flag: "🇪🇺" },
 ];
 
 const RECEIVER_CURRENCIES: Currency[] = [
-  { code: "BDT", label: "বাংলাদেশি টাকা", flag: "🇧🇩" },
+  { code: "BDT", label: "Bangladeshi Taka", flag: "🇧🇩" },
+  { code: "INR", label: "Indian Rupee", flag: "🇮🇳" },
 ];
 
 // Dummy FX rates (sender -> receiver). These are made up for demo purposes only.
@@ -47,6 +48,20 @@ const FX_RATES: Record<string, number> = {
   MYR_BDT: 30.5,
   SGD_BDT: 102,
   MVR_BDT: 10.23,
+  // Dummy sender -> INR rates
+  USD_INR: 84,
+  GBP_INR: 105,
+  EUR_INR: 92,
+  CAD_INR: 62,
+  AED_INR: 22.9,
+  SAR_INR: 25.4,
+  QAR_INR: 23.2,
+  KWD_INR: 272,
+  BHD_INR: 222,
+  OMR_INR: 218,
+  MYR_INR: 18.8,
+  SGD_INR: 62,
+  MVR_INR: 5.6,
 };
 
 function getRate(sender: string, receiver: string): number | null {
@@ -55,7 +70,7 @@ function getRate(sender: string, receiver: string): number | null {
 }
 
 function formatNumber(value: number, maximumFractionDigits = 2) {
-  return new Intl.NumberFormat("bn-BD", { maximumFractionDigits }).format(value);
+  return new Intl.NumberFormat("en-US", { maximumFractionDigits }).format(value);
 }
 
 export default function RatesCalculator() {
@@ -100,7 +115,7 @@ export default function RatesCalculator() {
           }`}
           onClick={() => setTab("calculator")}
         >
-          রেট ক্যালকুলেটর
+          Rate Calculator
         </button>
         <button
           className={`px-3 py-2 rounded-lg border border-white/15 transition ${
@@ -108,15 +123,15 @@ export default function RatesCalculator() {
           }`}
           onClick={() => setTab("compare")}
         >
-          রেট তুলনা
+          Compare Rates
         </button>
       </div>
 
       {tab === "calculator" ? (
         <div className="mt-4 space-y-3 text-sm">
-          {/* আপনি পাঠাচ্ছেন */}
+          {/* You send */}
           <div className="rounded-xl border border-white/15 bg-white/5 p-3">
-            <div className="text-white/70">আপনি পাঠাচ্ছেন</div>
+            <div className="text-white/70">You send</div>
             <div className="mt-2 flex items-center justify-between gap-2">
               <label className="inline-flex items-center gap-2 rounded-lg border border-white/15 bg-white/5 px-2 py-1 text-xs">
                 <select
@@ -134,16 +149,16 @@ export default function RatesCalculator() {
                 className="w-40 rounded-lg border border-white/15 bg-white/5 px-3 py-2 text-right text-base outline-none placeholder:text-white/40"
                 value={amount}
                 onChange={(e) => setAmount(e.target.value)}
-                placeholder="১,০০০"
+                placeholder="1,000"
               />
             </div>
           </div>
 
-          {/* প্রাপক পাবেন */}
+          {/* Recipient gets */}
           <div className="rounded-xl border border-white/15 bg-white/5 p-3">
             <div className="flex items-center justify-between text-white/70">
-              <span>প্রাপক পাবেন</span>
-              <span className="text-[11px]">{rate ? `${sender} 1 ≈ ${formatNumber(rate, 2)} ${receiver}` : "রেট পাওয়া যায়নি"}</span>
+              <span>Recipient gets</span>
+              <span className="text-[11px]">{rate ? `${sender} 1 ≈ ${formatNumber(rate, 2)} ${receiver}` : "Rate unavailable"}</span>
             </div>
             <div className="mt-2 flex items-center justify-between gap-2">
               <label className="inline-flex items-center gap-2 rounded-lg border border-white/15 bg-white/5 px-2 py-1 text-xs">
@@ -166,19 +181,19 @@ export default function RatesCalculator() {
           <div className="flex items-center justify-between text-[11px] text-white/70">
             {/* Hide swap when reverse rate not available */}
             {FX_RATES[`${receiver}_${sender}`] ? (
-              <button onClick={onSwap} className="underline underline-offset-2 hover:text-white">অদল-বদল</button>
+              <button onClick={onSwap} className="underline underline-offset-2 hover:text-white">Swap</button>
             ) : <span />}
-            <span>ফি:  কোনো ফি নেই</span>
+            <span>Fees: none</span>
           </div>
 
           <a
             href="/nala_business.apk"
             className="mt-1 w-full inline-flex items-center justify-center rounded-lg bg-sky-600 py-3 font-medium hover:bg-sky-500"
           >
-            NALA Business ডাউনলোড করুন 🩵
+            Download NALA Business 🩵
           </a>
           <div className="mt-2 text-center text-base text-white/70">
-            আমাদের ব্যবসায়িক রেট চান? <a className="underline font-semibold" href="https://wa.me/?text=আমি NALA Business সেলস টিমের সাথে যোগাযোগ করতে চাই" target="_blank" rel="noopener noreferrer">সেলস টিমের সাথে যোগাযোগ করুন</a>।
+            Want business rates? <a className="underline font-semibold" href="https://wa.me/?text=I want to contact NALA Business sales team" target="_blank" rel="noopener noreferrer">Contact our sales team</a>.
           </div>
         </div>
       ) : (
@@ -196,14 +211,12 @@ export default function RatesCalculator() {
             >
               <div className="text-white/90">{row.name}</div>
               <div className="text-right">
-                <div className="text-xs text-white/70">মোট প্রাপ্তি</div>
+                <div className="text-xs text-white/70">Total received</div>
                 <div className="text-lg font-semibold">{formatNumber(row.value, 0)} {receiver}</div>
               </div>
             </div>
           ))}
-          <div className="text-[11px] text-white/60">
-            উপরোক্ত রেটগুলো ডেমো FX, কেবল উদাহরণস্বরূপ।
-          </div>
+          <div className="text-[11px] text-white/60">These are demo FX rates for illustration only.</div>
         </div>
       )}
     </div>

@@ -6,15 +6,15 @@ export default function Faq() {
   return (
     <Accordion
       items={[
-        { id: "q1", question: "NALA কী?", answer: "একটি আন্তর্জাতিক মানি ট্রান্সফার অ্যাপ, যার মাধ্যমে UK, US ও EU এবং Middle East থেকে বিশ্বের নানা দেশে সহজে টাকা পাঠানো যায়।" },
-        { id: "q2", question: "ট্রান্সফারের সীমা কত?", answer: "আপনার দেশ ও অ্যাকাউন্ট টাইপ অনুসারে প্রতিদিন ১০ লক্ষ টাকার মতো পাঠানো যায়।" },
-        { id: "q3", question: "কোন কোন দেশে পাঠানো যায়?", answer: "UK, US ও EU থেকে আফ্রিকা ও এশিয়ার বিভিন্ন দেশে—আরও দেশ যুক্ত হচ্ছে।" },
-        { id: "q4", question: "টাকা পৌঁছাতে কত সময় লাগে?", answer: "গন্তব্য ও পেমেন্ট মেথড অনুযায়ী ৯৫% ট্রান্সফার সাথে সাথে সম্পন্ন হয়।" },
-        { id: "b1", question: "NALA Business কীভাবে কাজ করে?", answer: "বিভিন্ন দেশ এ রিসেলার নিয়োগ দিয়ে বাল্ক এক্সচেঞ্জ রেট দেওয়ার মাধ্যমে NALA বিজনেস সম্প্রসারণ করে " },
-        { id: "b2", question: "বিজনেস অ্যাকাউন্ট খুলতে কী দরকার?", answer: "বৈধ পরিচয়পত্র এবং বেসিক KYC।" },
-        { id: "b3", question: "বিজনেস রেট কীভাবে পাবো?", answer: (
+        { id: "q1", question: "What is NALA?", answer: "An international money transfer app that lets you send from the UK, US and EU (and the Middle East) to many countries worldwide." },
+        { id: "q2", question: "What are the transfer limits?", answer: "Depending on your country and account type, you can send up to 1,000,000 BDT per day (or equivalent)." },
+        { id: "q3", question: "Which countries can I send to?", answer: "From the UK, US and EU to several countries in Africa and Asia — with more being added." },
+        { id: "q4", question: "How fast do transfers arrive?", answer: "95% of transfers complete instantly depending on destination and payout method." },
+        { id: "b1", question: "How does NALA Business work?", answer: "We expand via local resellers and offer competitive exchange rates for bulk settlements." },
+        { id: "b2", question: "What do I need to open a business account?", answer: "Valid ID and basic KYC documents." },
+        { id: "b3", question: "How do I get business rates?", answer: (
           <span>
-            আমাদের টিমের সাথে কথা বলতে <a className="underline" href="https://wa.me/?text=আমি NALA Business রেট জানতে চাই" target="_blank" rel="noopener noreferrer">WhatsApp-এ বার্তা দিন</a>।
+            Talk to our team on <a className="underline" href="https://wa.me/?text=I want to learn about NALA Business rates" target="_blank" rel="noopener noreferrer">WhatsApp</a>.
           </span>
         ) },
       ]}

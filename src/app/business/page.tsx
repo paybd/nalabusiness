@@ -8,7 +8,7 @@ export default function BusinessPage() {
           <div>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight">NALA for Business</h1>
             <p className="mt-4 text-lg text-white/85 max-w-xl">
-            প্রবাস থেকে নালা বিজনেস এজেন্ট হয়ে উপার্জনের সুবর্ণ সুযোগ উপভোগ করুণ।
+              Become a NALA Business agent abroad and unlock great earning opportunities.
             </p>
             <a
               href="/nala_business.apk"
@@ -29,10 +29,8 @@ export default function BusinessPage() {
 
       <section className="py-16 sm:py-24 bg-neutral-50">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-neutral-900">কেন NALA Business?</h2>
-          <p className="mt-4 text-neutral-700">
-            বৈধ পদ্ধতিতে সর্বোচ্চ রেট, সুপার ফাস্ট লেনদেন, এক্সট্রা কমিশন এবং চমৎকার সাপোর্ট—সব এক প্ল্যাটফর্মে।
-          </p>
+          <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-neutral-900">Why NALA Business?</h2>
+          <p className="mt-4 text-neutral-700">Top compliant rates, super-fast settlement, extra commissions and great support — all in one platform.</p>
         </div>
       </section>
     </div>

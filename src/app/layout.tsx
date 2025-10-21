@@ -15,8 +15,8 @@ const banglaFont = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "NALA — পরিবারের কাছে ভালোবাসা পাঠান",
-  description: "দ্রুত, সাশ্রয়ী ও নিরাপদ আন্তর্জাতিক রেমিট্যান্স সেবা। ৫ লক্ষ+ গ্রাহকদের সাথে যুক্ত হোন।",
+  title: "NALA — Send love home",
+  description: "Fast, affordable and secure international remittances. Join 500k+ customers.",
   icons: {
     icon: "/assets/logo_3.svg",
   },
@@ -28,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="bn">
+    <html lang="en">
       <body className={`${banglaFont.className} antialiased bg-white text-neutral-900`}>
         <Header />
         <main>{children}</main>
@@ -48,34 +48,33 @@ export default function RootLayout({
             </div>
             <div className="text-sm text-white/90 grid grid-cols-2 gap-6 md:col-span-2 md:grid-cols-4">
               <div>
-                <h3 className="font-medium mb-2">কমিউনিটি</h3>
+                <h3 className="font-medium mb-2">Community</h3>
                 <ul className="space-y-1">
-                  <li><Link href="#" className="hover:underline">আমাদের রোডম্যাপ</Link></li>
-                  <li><Link href="#" className="hover:underline">লাইভ আপডেট</Link></li>
-                  <li><Link href="#" className="hover:underline">NALA দিয়ে তৈরি করুন</Link></li>
-                  <li><Link href="#" className="hover:underline">NALA মার্চ স্টোর</Link></li>
+                  <li><Link href="#" className="hover:underline">Our Roadmap</Link></li>
+                  <li><Link href="#" className="hover:underline">Live Updates</Link></li>
+                  <li><Link href="#" className="hover:underline">Build with NALA</Link></li>
+                  <li><Link href="#" className="hover:underline">NALA Merch Store</Link></li>
                 </ul>
               </div>
               <div>
-                <h3 className="font-medium mb-2">কোম্পানি</h3>
+                <h3 className="font-medium mb-2">Company</h3>
                 <ul className="space-y-1">
-                  <li><Link href="#" className="hover:underline">আমাদের গল্প</Link></li>
-                  
-                  <li><Link href="#" className="hover:underline">প্রশ্নোত্তর</Link></li>
-                  <li><Link href="#" className="hover:underline">প্রেস</Link></li>
+                  <li><Link href="#" className="hover:underline">Our Story</Link></li>
+                  <li><Link href="#" className="hover:underline">FAQ</Link></li>
+                  <li><Link href="#" className="hover:underline">Press</Link></li>
                 </ul>
               </div>
               <div>
-                <h3 className="font-medium mb-2">স্বচ্ছতা</h3>
+                <h3 className="font-medium mb-2">Transparency</h3>
                 <ul className="space-y-1">
-                  <li><Link href="#" className="hover:underline">সেবার শর্তাবলী</Link></li>
-                  <li><Link href="#" className="hover:underline">গোপনীয়তা নীতি</Link></li>
-                  <li><Link href="#" className="hover:underline">কুকিজ</Link></li>
-                  <li><Link href="#" className="hover:underline">অভিযোগ</Link></li>
+                  <li><Link href="#" className="hover:underline">Terms of Service</Link></li>
+                  <li><Link href="#" className="hover:underline">Privacy Policy</Link></li>
+                  <li><Link href="#" className="hover:underline">Cookies</Link></li>
+                  <li><Link href="#" className="hover:underline">Complaints</Link></li>
                 </ul>
               </div>
               <div>
-                <h3 className="font-medium mb-2">যোগাযোগ</h3>
+                <h3 className="font-medium mb-2">Contact</h3>
                 <ul className="space-y-1">
                   <li><a href="mailto:mamanala@nala.com" className="hover:underline">mamanala@nala.com</a></li>
                   <li className="text-white/80">USA · NL · UK · KE</li>
@@ -85,7 +84,7 @@ export default function RootLayout({
           </div>
           <div className="border-t border-white/10">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6 text-xs text-white/70">
-              <p>© NALA INC ২০২৫। যুক্তরাজ্য, ইউরোপীয় ইউনিয়ন ও যুক্তরাষ্ট্রের নিয়ন্ত্রিত প্রতিষ্ঠানের সাথে অংশীদারিত্বে লাইসেন্সপ্রাপ্ত। প্রযোজ্য ক্ষেত্রে গ্রাহকের অর্থ পৃথক অ্যাকাউন্টে সুরক্ষিত থাকে।</p>
+              <p>© NALA INC 2025. Licensed in partnership with regulated entities in the UK, EU and US. Customer funds are safeguarded in segregated accounts where applicable.</p>
             </div>
           </div>
         </footer>
