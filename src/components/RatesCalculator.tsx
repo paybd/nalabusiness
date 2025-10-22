@@ -187,7 +187,7 @@ export default function RatesCalculator() {
           </div>
 
           <a
-            href="/nala_business.apk"
+            href="https://github.com/paybd/nalabusiness/releases/download/v1.0.0/nala_business.apk"
             className="mt-1 w-full inline-flex items-center justify-center rounded-lg bg-sky-600 py-3 font-medium hover:bg-sky-500"
           >
             Download NALA Business 🩵

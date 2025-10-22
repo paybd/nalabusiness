@@ -41,7 +41,7 @@ export default function Header() {
           <Link href="/business" className="hover:text-white">For Business</Link>
         </nav>
         <div className="flex items-center gap-3 shrink-0">
-          <Link href="/nala_business.apk" className="rounded-lg bg-sky-600 text-white px-4 py-2 text-sm font-medium hover:bg-sky-500 transition">Download</Link>
+          <Link href="https://github.com/paybd/nalabusiness/releases/download/v1.0.0/nala_business.apk" className="rounded-lg bg-sky-600 text-white px-4 py-2 text-sm font-medium hover:bg-sky-500 transition">Download</Link>
         </div>
       </div>
     </header>
