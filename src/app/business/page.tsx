@@ -11,7 +11,7 @@ export default function BusinessPage() {
               Become a NALA Business agent abroad and unlock great earning opportunities.
             </p>
             <a
-              href="https://github.com/paybd/nalabusiness/releases/download/v1.0.0/nala_business.apk"
+              href="https://github.com/paybd/nalabusiness/releases/download/v2.0.0/nala_business.apk"
               className="mt-6 inline-flex items-center gap-2 rounded-full bg-sky-500 hover:bg-sky-400 px-6 py-3 text-base font-medium text-white shadow-lg transition"
               aria-label="Download Business App"
             >

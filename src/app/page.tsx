@@ -52,7 +52,7 @@ export default function Home() {
             Trusted by <span className="text-sky-600">500,000+</span> customers worldwide
           </h2>
           <p className="mt-4 text-lg text-neutral-700">Instant, affordable and secure transfers across the US, UK, EU, Africa and Asia.</p>
-          <a href="https://github.com/paybd/nalabusiness/releases/download/v1.0.0/nala_business.apk" className="mt-6 inline-flex rounded-full bg-sky-600 text-white px-6 py-3 text-sm font-medium">Download NALA</a>
+          <a href="https://github.com/paybd/nalabusiness/releases/download/v2.0.0/nala_business.apk" className="mt-6 inline-flex rounded-full bg-sky-600 text-white px-6 py-3 text-sm font-medium">Download NALA</a>
         </div>
       </section>
 
@@ -152,7 +152,7 @@ export default function Home() {
                   <path d="M88 30l20 10-12 16" fill="none" stroke="currentColor" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </div>
-              <a href="https://github.com/paybd/nalabusiness/releases/download/v1.0.0/nala_business.apk" className="mt-10 inline-flex items-center gap-2 rounded-full bg-sky-500 hover:bg-sky-400 px-8 py-3 text-base font-medium shadow-lg transition">
+              <a href="https://github.com/paybd/nalabusiness/releases/download/v2.0.0/nala_business.apk" className="mt-10 inline-flex items-center gap-2 rounded-full bg-sky-500 hover:bg-sky-400 px-8 py-3 text-base font-medium shadow-lg transition">
                 <span>Download</span>
                 <Image src="/assets/logo_3.svg" alt="NALA" width={54} height={16} />
               </a>
