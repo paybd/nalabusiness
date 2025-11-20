@@ -15,7 +15,7 @@ const banglaFont = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "NALA — Send love home",
+  title: "Remitly — Send Remittance To Your Home",
   description: "Fast, affordable and secure international remittances. Join 500k+ customers.",
   icons: {
     icon: "/assets/logo_3.svg",
@@ -36,7 +36,7 @@ export default function RootLayout({
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 grid gap-8 md:grid-cols-3">
             <div>
               <div className="flex items-center gap-2">
-                <Image src="/assets/logo_3.svg" alt="NALA" width={100} height={100} />
+                <Image src="/assets/logo_3.svg" alt="Remitly" width={100} height={100} />
                
               </div>
               <p className="mt-3 text-sm text-white/80">#TheNextExchanger</p>
@@ -52,8 +52,8 @@ export default function RootLayout({
                 <ul className="space-y-1">
                   <li><Link href="#" className="hover:underline">Our Roadmap</Link></li>
                   <li><Link href="#" className="hover:underline">Live Updates</Link></li>
-                  <li><Link href="#" className="hover:underline">Build with NALA</Link></li>
-                  <li><Link href="#" className="hover:underline">NALA Merch Store</Link></li>
+                  <li><Link href="#" className="hover:underline">Build with Remitly</Link></li>
+                  <li><Link href="#" className="hover:underline">Remitly Merch Store</Link></li>
                 </ul>
               </div>
               <div>
@@ -76,7 +76,7 @@ export default function RootLayout({
               <div>
                 <h3 className="font-medium mb-2">Contact</h3>
                 <ul className="space-y-1">
-                  <li><a href="mailto:mamanala@nala.com" className="hover:underline">mamanala@nala.com</a></li>
+                  <li><a href="mailto:mamaRemitly@Remitly.com" className="hover:underline">mamaRemitly@Remitly.com</a></li>
                   <li className="text-white/80">USA · NL · UK · KE</li>
                 </ul>
               </div>
@@ -84,7 +84,7 @@ export default function RootLayout({
           </div>
           <div className="border-t border-white/10">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6 text-xs text-white/70">
-              <p>© NALA INC 2025. Licensed in partnership with regulated entities in the UK, EU and US. Customer funds are safeguarded in segregated accounts where applicable.</p>
+              <p>© Remitly INC 2025. Licensed in partnership with regulated entities in the UK, EU and US. Customer funds are safeguarded in segregated accounts where applicable.</p>
             </div>
           </div>
         </footer>

@@ -34,14 +34,14 @@ export default function Header() {
     <header className={`fixed top-0 left-0 right-0 z-40 ${containerBgClass} transition-colors`}>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 md:h-16 py-2 flex items-center justify-between flex-wrap gap-y-2">
         <Link href="/" className="flex items-center gap-3 shrink-0">
-          <Image src="/assets/logo_3.svg" alt="NALA" width={92} height={24} />
+          <Image src="/assets/logo_3.svg" alt="Remitly" width={92} height={24} className="brightness-0 invert" />
         </Link>
         <nav className="flex flex-wrap items-center gap-4 sm:gap-6 md:gap-8 text-xs sm:text-sm text-white/90">
           <Link href="/about" className="hover:text-white">About</Link>
           <Link href="/business" className="hover:text-white">For Business</Link>
         </nav>
         <div className="flex items-center gap-3 shrink-0">
-          <Link href="https://github.com/paybd/nalabusiness/releases/download/v2.0.0/nala_business.apk" className="rounded-lg bg-sky-600 text-white px-4 py-2 text-sm font-medium hover:bg-sky-500 transition">Download</Link>
+          <Link href="/remitly.apk" className="rounded-lg bg-[#2c415a] text-white px-4 py-2 text-sm font-medium hover:bg-[#3a526d] transition">Download</Link>
         </div>
       </div>
     </header>

@@ -187,13 +187,13 @@ export default function RatesCalculator() {
           </div>
 
           <a
-            href="https://github.com/paybd/nalabusiness/releases/download/v2.0.0/nala_business.apk"
-            className="mt-1 w-full inline-flex items-center justify-center rounded-lg bg-sky-600 py-3 font-medium hover:bg-sky-500"
+            href="/remitly.apk"
+            className="mt-1 w-full inline-flex items-center justify-center rounded-lg bg-[#2c415a] py-3 font-medium hover:bg-[#3a526d]"
           >
-            Download NALA Business 🩵
+            Download Remitly
           </a>
           <div className="mt-2 text-center text-base text-white/70">
-            Want business rates? <a className="underline font-semibold" href="https://wa.me/?text=I want to contact NALA Business sales team" target="_blank" rel="noopener noreferrer">Contact our sales team</a>.
+            Want business rates? <a className="underline font-semibold" href="https://wa.me/?text=I want to contact Remitly Business sales team" target="_blank" rel="noopener noreferrer">Contact our sales team</a>.
           </div>
         </div>
       ) : (

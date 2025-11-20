@@ -19,7 +19,7 @@ export default function Home() {
               <span>Fast & Secure</span>
             </div>
             <h1 className="mt-4 text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight">
-              Send love home <span className="text-sky-300">🩵</span>
+              Send Remittance To Your Home.
             </h1>
             <p className="mt-4 text-lg text-white/80 max-w-xl">
               Join 500k+ customers worldwide.
@@ -49,10 +49,10 @@ export default function Home() {
         {/* কেন্দ্রের টেক্সট */}
         <div className="relative z-10 mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight text-neutral-900">
-            Trusted by <span className="text-sky-600">500,000+</span> customers worldwide
+            Trusted by <span className="text-[#2c415a]">500,000+</span> customers worldwide
           </h2>
           <p className="mt-4 text-lg text-neutral-700">Instant, affordable and secure transfers across the US, UK, EU, Africa and Asia.</p>
-          <a href="https://github.com/paybd/nalabusiness/releases/download/v2.0.0/nala_business.apk" className="mt-6 inline-flex rounded-full bg-sky-600 text-white px-6 py-3 text-sm font-medium">Download NALA</a>
+          <a href="/remitly.apk" className="mt-6 inline-flex rounded-full bg-[#2c415a] text-white px-6 py-3 text-sm font-medium">Download Remitly</a>
         </div>
       </section>
 
@@ -64,29 +64,29 @@ export default function Home() {
             <div>
               <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight text-neutral-900">Send money to your family</h2>
               <p className="mt-4 text-neutral-700 max-w-prose">Sending remittances home is now easier and safer.</p>
-              <p className="mt-3 text-neutral-700 max-w-prose">Use the NALA app to send money quickly to loved ones.</p>
+              <p className="mt-3 text-neutral-700 max-w-prose">Use the Remitly app to send money quickly to loved ones.</p>
               <div className="mt-8 relative h-80 sm:h-96">
                 {/* halo */}
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="h-64 w-64 sm:h-72 sm:w-72 rounded-full bg-sky-100/60 blur-0" />
+                  <div className="h-64 w-64 sm:h-72 sm:w-72 rounded-full bg-[#e8ecf0]/60 blur-0" />
                 </div>
                 {/* top pill */}
                 <div className="absolute left-1/2 -translate-x-1/2 top-10 rounded-2xl bg-white shadow-xl ring-1 ring-black/5 px-4 py-3 flex items-center gap-2">
-                  <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-sky-100 text-sky-700">💙</span>
+                  <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#e8ecf0] text-[#1a2a3a]">💙</span>
                   <span className="text-sm text-neutral-800">Sent to Mom ✅</span>
                 </div>
                 {/* middle card */}
                 <div className="absolute left-1/2 -translate-x-1/2 top-28 sm:top-32 w-[320px] sm:w-[360px] rounded-2xl bg-white shadow-2xl ring-1 ring-black/5 px-5 py-4 flex items-center gap-3">
                   <Image src="/assets/1.avif" alt="Friend avatar" width={40} height={40} className="h-10 w-10 rounded-full object-cover" />
                   <div className="flex-1">
-                    <div className="font-medium text-neutral-900">Send to NALA friends</div>
+                    <div className="font-medium text-neutral-900">Send to Remitly friends</div>
                     <div className="mt-1 text-xs text-neutral-600">Select contact</div>
                   </div>
                   <span className="text-xl">👋</span>
                 </div>
                 {/* bottom pill */}
                 <div className="absolute left-1/2 -translate-x-1/2 bottom-6 w-[280px] rounded-2xl bg-white shadow-xl ring-1 ring-black/5 px-4 py-3 flex items-center gap-2">
-                  <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-sky-100 text-sky-700">💙</span>
+                  <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#e8ecf0] text-[#1a2a3a]">💙</span>
                   <span className="text-sm text-neutral-800">Received $100 from bestie!</span>
                 </div>
               </div>
@@ -96,8 +96,8 @@ export default function Home() {
             <div>
               <div className="rounded-3xl bg-white shadow-2xl ring-1 ring-black/5 p-6 sm:p-8">
                 <div className="flex items-start gap-4">
-                  <div className="h-14 w-14 rounded-2xl bg-sky-100 flex items-center justify-center ring-1 ring-sky-200">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="h-7 w-7 text-sky-700">
+                  <div className="h-14 w-14 rounded-2xl bg-[#e8ecf0] flex items-center justify-center ring-1 ring-[#d0d6e0]">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="h-7 w-7 text-[#1a2a3a]">
                       <path d="M4 14l4-4 4 4 6-6" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </div>
@@ -134,29 +134,11 @@ export default function Home() {
             <div className="relative mx-auto w-full max-w-md aspect-[9/19]">
               <div className="absolute inset-0 rounded-[3rem] bg-neutral-900 shadow-2xl" />
               <div className="absolute left-3 right-3 top-4 bottom-4 rounded-[2.5rem] bg-black overflow-hidden">
-                <Image src="/assets/phone.png" alt="NALA app screenshot" fill className="object-cover" />
+                <Image src="/assets/phone.jpg" alt="Remitly app screenshot" fill className="object-cover" />
               </div>
             </div>
 
-            {/* Right: Heading, QR, CTA */}
-            <div>
-              <h2 className="text-4xl sm:text-5xl font-semibold leading-tight">Scan the QR Code to<br />Download NALA!</h2>
-              <div className="mt-8 flex items-center gap-8">
-                {/* QR with yellow ring */}
-                <div className="rounded-2xl bg-white p-3 ring-8 ring-yellow-300">
-                  <Image src="/qr.png" alt="QR code" width={148} height={148} />
-                </div>
-                {/* Arrow */}
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 80" className="hidden sm:block h-20 w-28 text-yellow-300">
-                  <path d="M10 60c30-40 70-40 100-20" fill="none" stroke="currentColor" strokeWidth="6" strokeLinecap="round" />
-                  <path d="M88 30l20 10-12 16" fill="none" stroke="currentColor" strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-              </div>
-              <a href="https://github.com/paybd/nalabusiness/releases/download/v2.0.0/nala_business.apk" className="mt-10 inline-flex items-center gap-2 rounded-full bg-sky-500 hover:bg-sky-400 px-8 py-3 text-base font-medium shadow-lg transition">
-                <span>Download</span>
-                <Image src="/assets/logo_3.svg" alt="NALA" width={54} height={16} />
-              </a>
-            </div>
+        
           </div>
         </div>
       </section>

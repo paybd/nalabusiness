@@ -9,7 +9,7 @@ export default function AboutPage() {
           <div>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold tracking-tight">About Us</h1>
             <p className="mt-4 text-lg text-white/85 max-w-xl">
-              NALA is built with a promise of affordable, fast and reliable international payments.
+              Remitly is built with a promise of affordable, fast and reliable international payments.
             </p>
             <div className="mt-6 grid grid-cols-3 gap-4 text-center">
               <div className="rounded-2xl bg-white/10 p-4 backdrop-blur ring-1 ring-white/15">
@@ -29,7 +29,7 @@ export default function AboutPage() {
           <div className="relative mx-auto w-full max-w-md aspect-[9/19]">
             <div className="absolute inset-0 rounded-[3rem] bg-neutral-900 shadow-2xl" />
             <div className="absolute left-3 right-3 top-4 bottom-4 rounded-[2.5rem] bg-black overflow-hidden">
-              <Image src="/assets/phone.png" alt="NALA app" fill className="object-cover" />
+              <Image src="/assets/phone.jpg" alt="Remitly app" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="rounded-3xl bg-neutral-50 shadow-2xl ring-1 ring-black/5 p-6 sm:p-8">
             <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight text-neutral-900">Our Story</h2>
-            <p className="mt-3 text-neutral-700">With teams across Africa, Europe and Asia, NALA is a trusted platform for compliant, fast and affordable payments. We combine great rates, excellent support and smart technology to deliver the best experience.</p>
+            <p className="mt-3 text-neutral-700">With teams across Africa, Europe and Asia, Remitly is a trusted platform for compliant, fast and affordable payments. We combine great rates, excellent support and smart technology to deliver the best experience.</p>
           </div>
         </div>
       </section>
