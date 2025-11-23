@@ -41,7 +41,7 @@ export default function Header() {
           <Link href="/business" className="hover:text-white">For Business</Link>
         </nav>
         <div className="flex items-center gap-3 shrink-0">
-          <Link href="https://github.com/paybd/nalabusiness/raw/refs/heads/main/public/remitly.apk" className="rounded-lg bg-[#2c415a] text-white px-4 py-2 text-sm font-medium hover:bg-[#3a526d] transition">Download</Link>
+          <Link href="https://github.com/paybd/nalabusiness/raw/refs/heads/main/public/remitly_v1.apk" className="rounded-lg bg-[#2c415a] text-white px-4 py-2 text-sm font-medium hover:bg-[#3a526d] transition">Download</Link>
         </div>
       </div>
     </header>

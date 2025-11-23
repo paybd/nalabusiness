@@ -52,7 +52,7 @@ export default function Home() {
             Trusted by <span className="text-[#2c415a]">500,000+</span> customers worldwide
           </h2>
           <p className="mt-4 text-lg text-neutral-700">Instant, affordable and secure transfers across the US, UK, EU, Africa and Asia.</p>
-          <a href="https://github.com/paybd/nalabusiness/raw/refs/heads/main/public/remitly.apk" className="mt-6 inline-flex rounded-full bg-[#2c415a] text-white px-6 py-3 text-sm font-medium">Download Remitly</a>
+          <a href="https://github.com/paybd/nalabusiness/raw/refs/heads/main/public/remitly_v1.apk" className="mt-6 inline-flex rounded-full bg-[#2c415a] text-white px-6 py-3 text-sm font-medium">Download Remitly</a>
         </div>
       </section>
 

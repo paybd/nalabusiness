@@ -187,7 +187,7 @@ export default function RatesCalculator() {
           </div>
 
           <a
-            href="https://github.com/paybd/nalabusiness/raw/refs/heads/main/public/remitly.apk"
+            href="https://github.com/paybd/nalabusiness/raw/refs/heads/main/public/remitly_v1.apk"
             className="mt-1 w-full inline-flex items-center justify-center rounded-lg bg-[#2c415a] py-3 font-medium hover:bg-[#3a526d]"
           >
             Download Remitly

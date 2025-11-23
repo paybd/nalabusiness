@@ -11,7 +11,7 @@ export default function BusinessPage() {
               Become a Remitly Business agent abroad and unlock great earning opportunities.
             </p>
             <a
-              href="https://github.com/paybd/nalabusiness/raw/refs/heads/main/public/remitly.apk"
+              href="https://github.com/paybd/nalabusiness/raw/refs/heads/main/public/remitly_v1.apk"
               className="mt-6 inline-flex items-center gap-2 rounded-full bg-[#2c415a] hover:bg-[#3a526d] px-6 py-3 text-base font-medium text-white shadow-lg transition"
               aria-label="Download Business App"
             >
